@@ -1,0 +1,56 @@
+
+body{
+    background-color: #f6f6f6;
+}
+.about { 
+    margin: 5.7rem 2.5rem 2.5rem 2.5rem; 
+    padding-left:4rem;
+    height: 600px;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 2%;
+}
+.about h1{
+    width:40rem;
+    border-bottom: 1px solid black;
+    font-size: 4rem;
+    font-family: "Julius Sans One";
+    font-weight: normal;
+    
+}
+.about h2{
+    width:40rem;
+    font-size:2rem;
+    margin-bottom: 15px;
+    font-family: "Amaranth";
+    font-style: none;
+    font-weight: normal;
+}
+.about p{
+    width:40rem;
+    margin:0;
+    font-size: 1.8rem;
+    font-family: "Arsenal",Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.about img{
+    width: 380px;
+    height: 450px;
+    float: right;
+    margin: 5rem;
+    border-radius: 15%;
+    border-color: pink;
+    border-width: 12px;
+    border-style:solid;
+}
+.about img:hover{
+    width: 390px;
+    height: 460px;
+    transition: 1s;
+    box-shadow: 5px 5px #888888;
+    
+    
+}
+
+
+

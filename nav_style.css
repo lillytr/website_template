@@ -1,0 +1,41 @@
+nav {
+    background-color: rgb(255, 255, 255); 
+    height: 5rem;
+    border-bottom: 3px solid rgba(111, 84, 84, 0.578);
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 25px;
+    padding-right: 40px;    
+}
+
+nav li a{
+    color: #dd8787;
+    font-size: 2rem;
+    font-family: "Julius Sans One";
+    text-decoration: none;
+    transition: .8s;
+}
+nav li a:hover{
+    font-weight: bold;
+    font-variation-settings: "wght" 800;
+    cursor: pointer;
+    color: #ff8686;
+    text-decoration: none;
+    text-shadow: 1px 1px #666666;
+    
+}
+nav li a:active{
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: "Julius Sans One";
+    text-decoration: none;
+     
+}
