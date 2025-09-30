@@ -1,56 +1,64 @@
+/* Play around with the colors and dimension */
+body {
+  background-color: #f6f6f6;
+}
 
-body{
-    background-color: #f6f6f6;
+.about {
+  margin: 5.7rem 2.5rem 2.5rem;
+  padding-left: 4rem;
+  height: 600px;
+  background-color: aliceblue;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 2%;
 }
-.about { 
-    margin: 5.7rem 2.5rem 2.5rem 2.5rem; 
-    padding-left:4rem;
-    height: 600px;
-    background-color: aliceblue;
-    box-shadow: 1px 1px 5px black;
-    border-radius: 2%;
-}
-.about h1{
-    width:40rem;
-    border-bottom: 1px solid black;
-    font-size: 4rem;
-    font-family: "Julius Sans One";
-    font-weight: normal;
-    
-}
-.about h2{
-    width:40rem;
-    font-size:2rem;
-    margin-bottom: 15px;
-    font-family: "Amaranth";
-    font-style: none;
-    font-weight: normal;
-}
-.about p{
-    width:40rem;
-    margin:0;
-    font-size: 1.8rem;
-    font-family: "Arsenal",Verdana, Geneva, Tahoma, sans-serif;
 
+.about h1,
+.about h2,
+.about p {
+  width: 40rem;
+  font-weight: normal;
 }
-.about img{
-    width: 380px;
-    height: 450px;
-    float: right;
-    margin: 5rem;
-    border-radius: 15%;
-    border-color: pink;
-    border-width: 12px;
-    border-style:solid;
+
+.about h1 {
+  border-bottom: 1px solid black;
+  font-size: 4rem;
+  font-family: "Julius Sans One";
 }
-.about img:hover{
-    width: 390px;
-    height: 460px;
-    transition: 1s;
-    box-shadow: 5px 5px #888888;
-    
-    
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-family: "Amaranth";
+}
+
+.about p {
+  margin: 0;
+  font-size: 1.8rem;
+  font-family: "Arsenal", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about img {
+  width: 380px;
+  height: 450px;
+  float: right;
+  margin: 5rem;
+  border: 8px solid pink;
+  border-radius: 15%;
+  transition: 1s;
 }
 
 
+.about .links img {
+  width: 4rem;
+  height: 4rem;
+  float: left;
+  margin: 1rem 2rem;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+  transition: box-shadow 0.3s;
+}
 
+.about .links img:hover {
+  box-shadow: 4px 4px 4px #888;
+}
